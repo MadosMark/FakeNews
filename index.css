@@ -1,21 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  background-color: black;
+
+}
+
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* background-color:black; */
-    padding: 10px;
-    margin: 20px    ;
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    padding: 5px;
+    margin: 5px;
+    grid-gap: 10px 30px;
+    
   }
 
   .grid-item {
-    background-color:red;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    margin: 5px;
+    background-color:black;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
     font-size: 30px;
+    font-family: 'Asap Condensed', sans-serif;
     text-align: center;
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    color: white;
+    
+    
+  }
+
+  .topHeader{
+  background-image: url("cyberpunk.jpg");
+  width: 100vw;
+  height: 400px;
+  object-fit: contain;
+  display: flex;
+      justify-content: center;
+      align-items: center;
+      
   }
 
   h1{
-      display: flex;
-      justify-content: center;
+      font-family: 'Six Caps', sans-serif;
+      font-size: 150px;
+      font-weight: 400;
+      color: white;
+      background-color: transparent;
+      text-shadow: 6px 4px 0px black;
+      
+  }
+    
+
+  ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Asap Condensed', sans-serif;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+  }
+
+  nav{
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    
+  }
+
+  .travis{
+    
+    display: flex;
+    width: 250px;
+    height: 155px;
+    padding: 5px;
+    
+  }
+
+  .KanyeWest {
+    display: flex;
+    width: 250px;
+    height: 165px;
+    padding: 5px;
+
   }
