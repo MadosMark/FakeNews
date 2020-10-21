@@ -8,7 +8,7 @@
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     background-color:black;
     padding: 5px;
     margin: 5px;
@@ -16,7 +16,7 @@
     
   }
 
-  .grid-item {
+  .grid-item{
     background-color:black;
     border: 1px solid white;
     padding: 5px;
@@ -31,6 +31,8 @@
     
     
   }
+
+  
 
   .topHeader{
   background-image: url("cyberpunk.jpg");
@@ -61,6 +63,13 @@
     margin: auto;
     color: white;
     align-items: center;
+    
+    
+  }
+
+  ul:hover{
+    background-color: red;
+   
     
   }
 
@@ -111,3 +120,70 @@
     padding: 5px;
 
 }
+
+.tyDollaSign{
+  display: flex;
+    width: 205px;
+    height: 135px;
+    padding: 5px;
+
+}
+
+.bigSean{
+  display: flex;
+    width: 195px;
+    height: 135px;
+    padding: 5px;
+
+}
+
+.machineGunKelly{
+  display: flex;
+    width: 205px;
+    height: 155px;
+    padding: 5px;
+
+}
+
+.blackBear{
+  display: flex;
+    width: 170px;
+    height: 155px;
+    padding: 5px;
+    margin-left: 0;
+
+
+}
+
+.asapRocky{
+  display: flex;
+    width: 205px;
+    height: 135px;
+    padding: 5px;
+
+}
+
+.eminem{
+  display: flex;
+    width: 205px;
+    height: 140px;
+    padding: 5px;
+    margin-left: 0;
+
+}
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+  margin-bottom: 2px;
+  
+}
+
+.down {
+  
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+ 
+}
+
