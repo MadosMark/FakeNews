@@ -7,7 +7,8 @@
 
 .grid-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color:black;
     padding: 5px;
     margin: 5px;
@@ -66,7 +67,15 @@
   nav{
     background-color: black;
     padding-top: 1rem;
-    padding-bottom: 0;
+    padding-bottom: 1rem;
+    border-style: solid;
+    border-top: thin;
+    border-left: thin;
+    border-right: thin;
+    color: white;
+    border-width: thin;
+    
+    
     
   }
 
@@ -86,3 +95,19 @@
     padding: 5px;
 
   }
+
+  .drake{
+    display: flex;
+    width: 230px;
+    height: 155px;
+    padding: 5px;
+    
+}
+
+.postMalone{
+  display: flex;
+    width: 205px;
+    height: 155px;
+    padding: 5px;
+
+}

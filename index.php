@@ -48,6 +48,19 @@
 
         </div>
 
+        <div class="grid-item">
+            <img class="drake" src="https://www.rollingstone.com/wp-content/uploads/2019/10/Drake.jpg" alt="Drake">
+            <Kanye> Drake had enough. No more music from Drake! </p>
+
+        </div>
+
+
+        <div class="grid-item">
+            <img class="postMalone" src="https://globalnews.ca/wp-content/uploads/2019/09/saint-tropez-post-malone-2.jpg?quality=85&strip=all" alt="Post Malone">
+            <Kanye> Post Malone is becoming a tattoo artist! </p>
+
+        </div>
+
 
 
     </div>
