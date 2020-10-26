@@ -1,9 +1,11 @@
 <?php
 
 require __DIR__ . ('/functions.php');
+require __DIR__ . ('/data.php');
 
 ?>
 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -41,145 +43,13 @@ require __DIR__ . ('/functions.php');
 
 
     <div class="newsFeedContainer">
-        <div class="card">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p>Author (full name)</p>
-                <p>Published date</p>
-                <div class="bottom-card-content">
-                    <a href="#" class="btn btn-primary">Read more</a>
-                    <div class="likeCounter">
-
-                        <p class="like-counter">14</p>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Post_Malone_Stavernfestivalen_2018_crop.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p>Author (full name)</p>
-                <p>Published date</p>
-                <div class="bottom-card-content">
-                    <a href="#" class="btn btn-primary">Read more</a>
-                    <div class="likeCounter">
-
-                        <p class="like-counter">14</p>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p>Author (full name)</p>
-                <p>Published date</p>
-                <div class="bottom-card-content">
-                    <a href="#" class="btn btn-primary">Read more</a>
-                    <div class="likeCounter">
-
-                        <p class="like-counter">14</p>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p>Author (full name)</p>
-                <p>Published date</p>
-                <div class="bottom-card-content">
-                    <a href="#" class="btn btn-primary">Read more</a>
-                    <div class="likeCounter">
-
-                        <p class="like-counter">14</p>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p>Author (full name)</p>
-                <p>Published date</p>
-                <div class="bottom-card-content">
-                    <a href="#" class="btn btn-primary">Read more</a>
-                    <div class="likeCounter">
-
-                        <p class="like-counter">14</p>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p>Author (full name)</p>
-                <p>Published date</p>
-                <div class="bottom-card-content">
-                    <a href="#" class="btn btn-primary">Read more</a>
-                    <div class="likeCounter">
-
-                        <p class="like-counter">14</p>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <p>Author (full name)</p>
-                <p>Published date</p>
-                <div class="bottom-card-content">
-                    <a href="#" class="btn btn-primary">Read more</a>
-                    <div class="likeCounter">
-
-                        <p class="like-counter">14</p>
-                        <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                    </div>
-                </div>
-            </div>
-
+        <?php foreach ($articles as $article) : ?>
             <div class="card">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
+                <img src=<?php echo $article['image']; ?> class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p>Author (full name)</p>
+                    <h5 class="card-title"><?php echo $article['title']; ?></h5>
+                    <p class="card-text"><?php echo $article['content']; ?></p>
+                    <p><?php echo $article['author']['full_name']; ?></p>
                     <p>Published date</p>
                     <div class="bottom-card-content">
                         <a href="#" class="btn btn-primary">Read more</a>
@@ -192,46 +62,8 @@ require __DIR__ . ('/functions.php');
                     </div>
                 </div>
             </div>
-
-            <div class="card">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p>Author (full name)</p>
-                    <p>Published date</p>
-                    <div class="bottom-card-content">
-                        <a href="#" class="btn btn-primary">Read more</a>
-                        <div class="likeCounter">
-
-                            <p class="like-counter">14</p>
-                            <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <p>Author (full name)</p>
-                    <p>Published date</p>
-                    <div class="bottom-card-content">
-                        <a href="#" class="btn btn-primary">Read more</a>
-                        <div class="likeCounter">
-
-                            <p class="like-counter">14</p>
-                            <i class="glyphicon glyphicon-thumbs-up"></i>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <?php endforeach; ?>
+    </div>
 
 </body>
 

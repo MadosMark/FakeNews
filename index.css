@@ -17,7 +17,7 @@ body {
     }
 
 
-        .headerTitle {
+    .headerTitle {
         font-family: 'Six Caps', sans-serif;
         font-size: 150px;
         font-weight: 400;
@@ -34,9 +34,10 @@ body {
         border-top: 1px solid red;
         border-bottom: 1px solid red;
     }
-    .nav>li>a:hover {
+    a:hover {
         text-decoration: none;
-        background-color: red !important;
+        color: red !important;
+        background-color: inherit !important;
     }
     
     a {
