@@ -1,189 +1,125 @@
-* {
-  box-sizing: border-box;
-  margin: auto;
-  background-color: black;
-
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
-.grid-container {
+.topHeader{
+    background-image: url("cyberpunk.jpg");
+    background-repeat: no-repeat;
+    width: 100vw;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    background-color:black;
-    padding: 5px;
-    margin: 5px;
-    grid-gap: 10px 30px;
+    object-fit: cover;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+        .headerTitle {
+        font-family: 'Six Caps', sans-serif;
+        font-size: 150px;
+        font-weight: 400;
+        color: white;
+        background-color: transparent;
+        text-shadow: 6px 4px 0px black;
+        text-align: center;
+        
+    }
+
+    .nav {
+        padding: 12px 0px 12px 0px;
+        justify-content: space-around;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+    }
+    .nav>li>a:hover {
+        text-decoration: none;
+        background-color: red !important;
+    }
     
-  }
+    a {
+        color: white !important;
+    }
 
-  .grid-item{
-    background-color:black;
-    border: 1px solid white;
-    padding: 5px;
-    margin: 10px;
-    font-size: 30px;
-    font-family: 'Asap Condensed', sans-serif;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    width: 35vw;
-    color: white;
+    .newsFeedContainer {
+        display: grid;
+        grid-template-columns:  repeat(3, 1fr);
+        row-gap: 12px;
+        column-gap: 12px;
+        padding: 12px;
+    }
+
+    .card {
+        background-color: black !important;
+        color: white;
+        border: 2px solid red !important;
+    }
+
+    .card:first-child {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        background-color: whitesmoke;
+    }
+
+    .card-img, .card-img-top {
+        height: 300px !important;
+        display: flex;
+        object-fit: cover;
+        
+    }
+
+    .card-title {
+        font-size: 2.5rem;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+
+    .bottom-card-content {
+        display: flex;
+        justify-content: space-between;
+        /* background-color: yellowgreen; */
+        align-items: flex-end;
+       
+    }
+
+    .like-counter {
+        margin: 0;
+        padding-right: 7px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .glyphicon, .glyphicon-thumbs-up{
+       margin-top: 2px;
+    }
+
+    .likeCounter{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+        @media only screen
+        and (min-width: 375px)
+        and (max-width: 812px) {
+            .nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .newsFeedContainer {
+                display: flex;
+                flex-direction: column;
+            }
     
+            .card {
+                border-radius: 0px !important;
+            }
     
-  }
-
-  
-
-  .topHeader{
-  background-image: url("cyberpunk.jpg");
-  width: 100vw;
-  height: 400px;
-  object-fit: contain;
-  display: flex;
-      justify-content: center;
-      align-items: center;
-      
-  }
-
-  h1{
-      font-family: 'Six Caps', sans-serif;
-      font-size: 150px;
-      font-weight: 400;
-      color: white;
-      background-color: transparent;
-      text-shadow: 6px 4px 0px black;
-      
-  }
-    
-
-  ul{
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Asap Condensed', sans-serif;
-    margin: auto;
-    color: white;
-    align-items: center;
-    
-    
-  }
-
-  ul:hover{
-    background-color: red;
-   
-    
-  }
-
-  nav{
-    background-color: black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-style: solid;
-    border-top: thin;
-    border-left: thin;
-    border-right: thin;
-    color: white;
-    border-width: thin;
-    
-    
-    
-  }
-
-  .travis{
-    
-    display: flex;
-    width: 250px;
-    height: 155px;
-    padding: 5px;
-    
-  }
-
-  .KanyeWest {
-    display: flex;
-    width: 250px;
-    height: 165px;
-    padding: 5px;
-
-  }
-
-  .drake{
-    display: flex;
-    width: 230px;
-    height: 155px;
-    padding: 5px;
-    
-}
-
-.postMalone{
-  display: flex;
-    width: 205px;
-    height: 155px;
-    padding: 5px;
-
-}
-
-.tyDollaSign{
-  display: flex;
-    width: 205px;
-    height: 135px;
-    padding: 5px;
-
-}
-
-.bigSean{
-  display: flex;
-    width: 195px;
-    height: 135px;
-    padding: 5px;
-
-}
-
-.machineGunKelly{
-  display: flex;
-    width: 205px;
-    height: 155px;
-    padding: 5px;
-
-}
-
-.blackBear{
-  display: flex;
-    width: 170px;
-    height: 155px;
-    padding: 5px;
-    margin-left: 0;
-
-
-}
-
-.asapRocky{
-  display: flex;
-    width: 205px;
-    height: 135px;
-    padding: 5px;
-
-}
-
-.eminem{
-  display: flex;
-    width: 205px;
-    height: 140px;
-    padding: 5px;
-    margin-left: 0;
-
-}
-.arrow {
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 4px;
-  margin-bottom: 2px;
-  
-}
-
-.down {
-  
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
- 
-}
-
+            .card-img, .card-img-top {
+                border-radius: 0px !important;
+            }
+        }
