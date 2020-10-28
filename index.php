@@ -28,34 +28,35 @@ require __DIR__ . ('/data.php');
 
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link active" href="#">Global News</a>
+            <a class="nav-link active" href="https://media.giphy.com/media/X8JqucxQCrWHgU2drs/giphy.gif">Global News</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Sports</a>
+            <a class="nav-link" href="https://media.giphy.com/media/X8JqucxQCrWHgU2drs/giphy.gif">Music</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Tech News</a>
+            <a class="nav-link" href="https://media.giphy.com/media/X8JqucxQCrWHgU2drs/giphy.gif">Tech News</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Music</a>
+            <a class="nav-link" href="https://media.giphy.com/media/X8JqucxQCrWHgU2drs/giphy.gif">Sports</a>
         </li>
     </ul>
 
 
     <div class="newsFeedContainer">
+        <?php usort($articles, "sortByDate"); ?>
         <?php foreach ($articles as $article) : ?>
             <div class="card">
                 <img src=<?php echo $article['image']; ?> class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $article['title']; ?></h5>
                     <p class="card-text"><?php echo $article['content']; ?></p>
-                    <p><?php echo $article['author']['full_name']; ?></p>
-                    <p>Published date</p>
+                    <p class="author"><?php echo $article['author']['full_name']; ?></p>
+                    <p class="date"><?php echo date_format($article['date'], 'd F Y'); ?></p>
                     <div class="bottom-card-content">
-                        <a href="#" class="btn btn-primary">Read more</a>
+                        <a href="https://media.giphy.com/media/xT4ApznCZTtuBjmHHa/giphy.gif" class="btn btn-primary">Read more</a>
                         <div class="likeCounter">
 
-                            <p class="like-counter">14</p>
+                            <p class="like-counter"><?php echo $article['likes'] ?></p>
                             <i class="glyphicon glyphicon-thumbs-up"></i>
 
                         </div>
