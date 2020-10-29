@@ -1,5 +1,5 @@
 # FakeNews
-<<<<<<< HEAD
+
 FakeNews Project
 
 
@@ -13,5 +13,5 @@ Enjoy!
 
 
 
-<img src="https://media.giphy.com/media/68DraxVN5AdpiZZ6bz/giphy.gif" width="40" height="40" alt="Donald Trump>
+![Alt Text](https://media.giphy.com/media/68DraxVN5AdpiZZ6bz/giphy.gif)
 
