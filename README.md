@@ -3,7 +3,7 @@
 FakeNews Project
 
 
-FakeNews Project
+
 
 This is a project where news that are fake, gets published.
 Since news generally already are somewhat false and sometimes fake, you can interpretitate this fake news website as real.
