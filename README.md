@@ -1,4 +1,4 @@
-# FakeNews
+# Real Fake News
 
 FakeNews Project
 
