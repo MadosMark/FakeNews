@@ -7,3 +7,6 @@ Since news generally already are somewhat false and sometimes fake, you can inte
 The site is clickable and can be used both in mobile and desktop view.
 
 Enjoy!
+
+
+https://media.giphy.com/media/68DraxVN5AdpiZZ6bz/giphy.gif
