@@ -9,4 +9,4 @@ The site is clickable and can be used both in mobile and desktop view.
 Enjoy!
 
 
-https://media.giphy.com/media/68DraxVN5AdpiZZ6bz/giphy.gif
+<iframe src="https://giphy.com/embed/68DraxVN5AdpiZZ6bz" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/teamtrump-trump-maga-president-68DraxVN5AdpiZZ6bz">via GIPHY</a></p>
