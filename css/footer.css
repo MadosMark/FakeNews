@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: red;
+    margin-top: 3rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}

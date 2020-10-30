@@ -6,7 +6,7 @@ body {
 }
 
 .topHeader{
-    background-image: url("cyberpunk.jpg");
+    background-image: url("../assets/cyberpunk.jpg");
     background-repeat: no-repeat;
     width: 100vw;
     display: flex;

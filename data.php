@@ -22,7 +22,7 @@ $articles = [
     [
         'title' => 'Aliens will not visit earth, they find us not interesting enough.',
         'content' => 'Zebra stripes jagged little pill ford bronco whitney houston yo bowl cut, backstreet boys eminem blur dotcom bubble furby. Kool-aid man did I do that oakleys buddy list frasier ken griffey jr, real world fresh accent braids tupac shakur. Magic johnson can’t touch this dolly the sheep millenials. Mazda mpv honda accord apollo 13 spice girls g-shocks adidas.',
-        'image' => 'https://theday-assets-production.s3.eu-west-2.amazonaws.com/uct9r59hptjn64azbrm0lzjsv91h?response-content-disposition=inline%3B%20filename%3D%22-images-news-2020-01-2020-01-07_aliens.jpg%22%3B%20filename%2A%3DUTF-8%27%27-images-news-2020-01-2020-01-07_aliens.jpg&response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI3FT64HU6SLRPA6Q%2F20201028%2Feu-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201028T171712Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=7a7cdbed06fb81fa07c58ae3035c9e2c35d368ecf107b31cc5fb76134b860ce6',
+        'image' => 'https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/Aliens.jpg?itok=kfbiuwSv',
         'author' => ['full_name' => 'Charles Dickens', 'id' => 2],
         'date' => new DateTime('2020-08-12'),
         'likes' => 145
