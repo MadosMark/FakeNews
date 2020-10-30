@@ -10,9 +10,16 @@ Enjoy!
 
 ![Alt Text](https://media.giphy.com/media/68DraxVN5AdpiZZ6bz/giphy.gif)
 
-## Installation guide
+# Installation guide
 
 1. Clone my repo - https://github.com/MadosMark/FakeNews.git
 2. Navigate to the root folder using command - cd folder/where/project
 3. Create a local server in your terminal using the command - php -S localhost:8000
 4. Open your browser and go to localhost:8000/index.php to view my page
+
+# Testers
+
+
+
+
+# Feedback
