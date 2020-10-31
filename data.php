@@ -44,7 +44,7 @@ $articles = [
         'content' => 'Minesweeper generation Y the more you know space jam boy meets world snapple. The mighty ducks macaulay culkin boombox furby, bleached hair discman biker shorts armageddon geo metro. Bill gates speed fanny packs life is like a box of chocolates savage garden, leggings gak trl nickelodeon glow in the dark stickers will smith. Coral game boy color pagers jonathan taylor thomas, arsenio hall mr. jones and me tell each other fairy tales napster grunge.',
         'image' => 'https://filmtopp.imgix.net/media/2020/08/TEnet.jpg?w=810&fit=max&s=a7f3f5fd2ae2136d6d37e03daf6e0c5a',
         'author' => ['full_name' => 'James Joyce', 'id' => 3],
-        'date' => new DateTime('2020-11-28'),
+        'date' => new DateTime('2020-03-28'),
         'likes' => 98,
         'category' => 'global'
     ],
@@ -87,9 +87,9 @@ $articles = [
     [
         'title' => 'Can 2021 be worse than 2020?',
         'content' => 'The truman show mad props rush hour mr. jones and me tell each other fairy tales blockbuster video dennis rodman. Bike caps giga pets doug tlc, starter jackets wonderwall smashing pumpkins trippin’ ford taurus denim jackets. Tootsie pop nintendo 64 big lebowski i am king of the world tamagotchi furby, airwalk cornrows floppy disk clueless street fighter ii flip flops. Fresh prince of bel-air this is your brain on drugs sup boyz II men.',
-        'image' => 'https://www.think.cz/images/stories/guide-to-apocalypse.jpg',
+        'image' => 'https://d18lkz4dllo6v2.cloudfront.net/cumulus_uploads/entry/2020-03-18/yougov-apocalypse-pandemic-climate-change.jpg',
         'author' => ['full_name' => 'Margaret Thatcher', 'id' => 5],
-        'date' => new DateTime('2020-12-08'),
+        'date' => new DateTime('2020-10-08'),
         'likes' => 220,
         'category' => 'global'
     ],
