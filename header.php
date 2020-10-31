@@ -12,6 +12,7 @@ require __DIR__ . ('/data.php');
 	<title>Real Fake News</title>
 
 	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/header.css">
 	<link rel="stylesheet" href="../css/footer.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
@@ -25,22 +26,26 @@ require __DIR__ . ('/data.php');
 <body>
 
 	<header class="topHeader">
-		<h1 class="headerTitle"> Real Fake News </h1>
+		<h1 class="headerTitle">
+			<a class="headerTitleLink" href="/">
+				Real Fake News
+			</a>
+		</h1>
 	</header>
 
 	<nav>
 		<ul class="nav">
 			<li class="nav-item">
-				<a class="nav-link active" href="https://media.giphy.com/media/X8JqucxQCrWHgU2drs/giphy.gif">Global News</a>
+				<a class="nav-link" href="/global.php">Global</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="https://media.giphy.com/media/X8JqucxQCrWHgU2drs/giphy.gif">Music</a>
+				<a class="nav-link" href="/music.php">Music</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="https://media.giphy.com/media/X8JqucxQCrWHgU2drs/giphy.gif">Tech News</a>
+				<a class="nav-link" href="/tech.php">Tech</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="https://media.giphy.com/media/X8JqucxQCrWHgU2drs/giphy.gif">Sports</a>
+				<a class="nav-link" href="/sports.php">Sports</a>
 			</li>
 		</ul>
 	</nav>

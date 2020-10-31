@@ -19,7 +19,4 @@ Enjoy!
 
 # Testers
 
-
-
-
 # Feedback

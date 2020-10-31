@@ -6,10 +6,11 @@ $articles = [
     [
         'title' => 'Michael Jordan survives the flu!',
         'content' => 'The matrix personalized mixtapes hook leggings cassette tape tom hanks, lunchables floppy disk instant messaging independence day. Forrest gump nylon windbreaker bike caps fargo scrunchies personal computer. Yo quiero taco bell necklaces with your name on a grain of rice sublime move it football head, toy story smashing pumpkins desert storm punk dawson’s creek cory matthews. Puff daddy playstation aerosmith arsenio hall royal stewart tartan.',
-        'image' => 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zclNjVvOp1bDkVuubVNyAgHaE8%26pid%3DApi&f=1',
+        'image' => 'https://images.actionnetwork.com/blog/2020/04/michaeljordan-1.jpg',
         'author' => ['full_name' => 'William Blake', 'id' => 1],
         'date' => new DateTime('2020-03-14'),
-        'likes' => 114
+        'likes' => 114,
+        'category' => 'sports'
     ],
     [
         'title' => 'Kanye West won\'t run for president, he feels left out.',
@@ -17,7 +18,8 @@ $articles = [
         'image' => 'https://e3.365dm.com/20/07/2048x1152/2372007050099009307_5030674.jpg',
         'author' => ['full_name' => 'William Blake', 'id' => 1],
         'date' => new DateTime('2020-07-23'),
-        'likes' => 32
+        'likes' => 32,
+        'category' => 'music'
     ],
     [
         'title' => 'Aliens will not visit earth, they find us not interesting enough.',
@@ -25,7 +27,8 @@ $articles = [
         'image' => 'https://www.ox.ac.uk/sites/files/oxford/styles/ow_medium_feature/s3/field/field_image_main/Aliens.jpg?itok=kfbiuwSv',
         'author' => ['full_name' => 'Charles Dickens', 'id' => 2],
         'date' => new DateTime('2020-08-12'),
-        'likes' => 145
+        'likes' => 145,
+        'category' => 'global'
     ],
     [
         'title' => 'Rumours says that USA was onboard to develop the Corona Virus fraud.',
@@ -33,7 +36,8 @@ $articles = [
         'image' => 'https://c.files.bbci.co.uk/71B7/production/_115011192_trumpandxihandshake.jpg',
         'author' => ['full_name' => 'Charles Dickens', 'id' => 2],
         'date' => new DateTime('2020-06-30'),
-        'likes' => 192
+        'likes' => 192,
+        'category' => 'global'
     ],
     [
         'title' => 'The movie Tenet will make you question everything, even your own existence.',
@@ -41,7 +45,8 @@ $articles = [
         'image' => 'https://filmtopp.imgix.net/media/2020/08/TEnet.jpg?w=810&fit=max&s=a7f3f5fd2ae2136d6d37e03daf6e0c5a',
         'author' => ['full_name' => 'James Joyce', 'id' => 3],
         'date' => new DateTime('2020-11-28'),
-        'likes' => 98
+        'likes' => 98,
+        'category' => 'global'
     ],
     [
         'title' => 'Are we really alive? Or is this a simulation?',
@@ -49,7 +54,8 @@ $articles = [
         'image' => 'http://www.poslab.com.tw/wp-content/uploads/2015/05/red-matrix-code-android-wallpaper-52y01.jpg',
         'author' => ['full_name' => 'James Joyce', 'id' => 3],
         'date' => new DateTime('2020-01-21'),
-        'likes' => 135
+        'likes' => 135,
+        'category' => 'global'
     ],
     [
         'title' => 'Apple announced the new "Water Bottle" for only 99,99$.',
@@ -57,7 +63,8 @@ $articles = [
         'image' => 'https://as-images.apple.com/is/og-default?wid=1200&hei=630&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1525370171638',
         'author' => ['full_name' => 'Robert Burns', 'id' => 4],
         'date' => new DateTime('2020-09-17'),
-        'likes' => 199
+        'likes' => 199,
+        'category' => 'tech'
     ],
     [
         'title' => 'Gordon Ramsay in jail after yelling at a police officer because the rice was undercooked.',
@@ -65,7 +72,8 @@ $articles = [
         'image' => 'https://ca-times.brightspotcdn.com/dims4/default/2911e53/2147483647/strip/true/crop/1600x1011+0+0/resize/840x531!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F4b%2Fb2%2F3c66230299f7271658b693c3e511%2Fla-dd-jacques-ppin-gordon-ramsay-20140715-001',
         'author' => ['full_name' => 'Robert Burns', 'id' => 4],
         'date' => new DateTime('2020-09-03'),
-        'likes' => 244
+        'likes' => 244,
+        'category' => 'global'
     ],
     [
         'title' => 'Scientist discovers: "Tattoos are only permanent if you make one!"',
@@ -73,7 +81,8 @@ $articles = [
         'image' => 'https://besthqwallpapers.com/Uploads/5-2-2017/13283/thumb2-tattoos-rings-hands-tattoo-on-hands.jpg',
         'author' => ['full_name' => 'Margaret Thatcher', 'id' => 5],
         'date' => new DateTime('2020-05-11'),
-        'likes' => 67
+        'likes' => 67,
+        'category' => 'global'
     ],
     [
         'title' => 'Can 2021 be worse than 2020?',
@@ -81,14 +90,8 @@ $articles = [
         'image' => 'https://www.think.cz/images/stories/guide-to-apocalypse.jpg',
         'author' => ['full_name' => 'Margaret Thatcher', 'id' => 5],
         'date' => new DateTime('2020-12-08'),
-        'likes' => 220
+        'likes' => 220,
+        'category' => 'global'
     ],
-
-
-
-
-
-
-
 
 ];

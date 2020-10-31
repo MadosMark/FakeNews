@@ -4,7 +4,6 @@ declare(strict_types=1);
 require __DIR__ . ('/data.php');
 
 
-
 function sortByDate($element1, $element2)
 {
     $datetime1 = strtotime($element1['date']->format('Y-m-d'));

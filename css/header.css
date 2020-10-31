@@ -1,0 +1,46 @@
+.topHeader {
+  background-image: url("../assets/cyberpunk.jpg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerTitle {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.headerTitleLink {
+  font-family: "Six Caps", sans-serif;
+  font-size: 150px;
+  font-weight: 400;
+  color: red !important;
+  background-color: transparent;
+  text-shadow: 6px 4px 0px black !important;
+  text-align: center;
+}
+
+.headerTitleLink:hover {
+  text-decoration: none !important;
+}
+
+.nav {
+  padding: 12px 0px 12px 0px;
+  justify-content: space-around;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red !important;
+  background-color: inherit !important;
+}
+
+a {
+  color: whitesmoke !important;
+  text-shadow: 0px 0px 8px red;
+}

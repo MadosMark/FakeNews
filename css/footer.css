@@ -1,16 +1,25 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .footer {
-    background-color: red;
-    margin-top: 3rem;
+  background-color: red;
+  margin-top: 3rem;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 6rem;
-    padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  text-shadow: 1px 1px 1px whitesmoke;
+  text-transform: uppercase;
 }
