@@ -1,8 +1,8 @@
 <?php require __DIR__ . ('/header.php'); ?>
 
 <section class="newsFeedContainer">
-    <?php usort($articles, "sortByDate"); ?>
-    <?php foreach ($articles as $article) : ?>
+    <?php usort($articles, "sortByDate");
+    foreach ($articles as $article) : ?>
         <div class="card">
             <img src=<?php echo $article['image']; ?> class="card-img-top" alt="...">
             <div class="card-body">
