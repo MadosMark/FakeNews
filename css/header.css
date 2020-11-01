@@ -21,6 +21,8 @@
   background-color: transparent;
   text-shadow: 6px 4px 0px black !important;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .headerTitleLink:hover {
@@ -43,4 +45,25 @@ a:hover {
 a {
   color: whitesmoke !important;
   text-shadow: 0px 0px 8px red;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 812px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .newsFeedContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    border-radius: 0px !important;
+  }
+
+  .card-img,
+  .card-img-top {
+    border-radius: 0px !important;
+  }
 }

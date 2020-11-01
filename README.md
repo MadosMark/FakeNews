@@ -19,6 +19,10 @@ Enjoy!
 
 # Testers
 
+1. Gilda Eklöf
+2. Réka Madarász
+3. Ida From
+
 # Feedback
 
 1.
