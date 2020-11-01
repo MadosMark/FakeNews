@@ -26,8 +26,8 @@ Enjoy!
 # Feedback
 Av: Ida From, /Fvrom. 
 1. Du blandar lite stilar på döpning av class names. Exempelvis ser jag i index en heter "newsFeedContainer" men sen ser jag classes som "card-body" med - som separarer orden. Tänk på att hålla dig konsekvent med döpningen! 
-2. I dina .php filer som index, global, sport, music och tech har du skrivit: <?php usort($articles, "sortByDate"); ?>
-    <?php foreach ($articles as $article) : 
+2. I dina .php filer som index, global, sport, music och tech har du skrivit: < ? php usort($articles, "sortByDate"); ? >
+    < ? php foreach ($articles as $article) : 
     Du har stängt din php efter din funktion och sen öppnat php igen direkt efter. En minor grej men du behöver inte stänga din php för att sen öppna upp den igen. 
 3. Snyggt med kategorier!! Hade man möjligtvis kunnat impletera en funktion som gör kategoriseringen åt dig?
 4. Jag blev lite förvirrad över skillnaden på global och index först. Vad som var skillnaden på dem två när jag var inne på din sida. Hade man möjligtvis kunnat köra med en nav tag för "all news" för att förtydliga ? 
